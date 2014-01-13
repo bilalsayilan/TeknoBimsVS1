@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  
+  
+  <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="css/codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="js/codiqa.ext.js"></script>
+   
+</head>
+<body class="ui-mobile-viewport ui-overlay-c">
+<!-- Home -->
+    <div data-role="page" id="page1">
+        <div id="headers" data-theme="a" data-role="header" data-position="fixed">
+            <h3>
+                Tekno Bims
+            </h3>
+        </div>
+        <div data-role="content">
+            <div id="logo" style="width: 100%; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8; text-align:center;">
+                <img id="logo" src="images/logo.png" alt="image"
+                     style="margin-top:3px">
+            </div>
+       
+            <div id="urunButton" data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="kurumsal.html" data-transition="pop" data-theme="a" data-icon="home">
+                            Kurumsal
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div id="urunButton" data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="urunler.html" data-transition="pop" data-theme="a" data-icon="grid">
+                            Ürünler
+                        </a>
+                    </li>
+                </ul>
+            </div>
+		
+            <div id="urunButton" data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="bayigirisi.html" data-transition="pop" data-theme="a" data-icon="gear">
+                            Bayi Girişi
+                        </a>
+                    </li>
+                </ul>
+            </div>
+		
+            <div id="urunButton" data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="galeri.html" data-transition="pop" data-theme="a" data-icon="gear">
+                            Foto Galeri
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div id="urunButton" data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="iletisim.html" data-transition="pop" data-theme="a" data-icon="plus">
+                            İletişim
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+        <div data-role="footer">
+            <h4>TÜRKİYE' nin Bims Blok Markası</h4>
+        </div>
+    </div>
+    <script type="text/javascript" src="phonegap.js"></script>
+    <script type="text/javascript" src="cordova-2.7.0.js"></script>
+    <script type="text/javascript">app.initialize();</script>
+</body>
+</html>

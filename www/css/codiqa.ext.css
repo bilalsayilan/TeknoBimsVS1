@@ -1,0 +1,17 @@
+.left{float:left;}.right{float:right;}
+.clear{clear:both; line-height:0px; height:0px;}
+.itemGridP{}
+.itemGridP > p{padding:5px 8px; border-bottom:1px solid #CCC; min-height:25px;}
+.itemGridP > p .right{clear:right;}
+
+.itemGridX > p{padding:5px 8px; border-bottom:1px solid #CCC; margin:0; text-align:right;}
+
+.urunitem{border-bottom:1px solid #CCC;}
+.urunitem .urunHead{background-color:#FFF; padding:10px; display:block !important;}
+.urunitem .urunHead:hover{background-color:#ebebeb;}
+.urunitem .urunHead:focus,.urunitem .urunHead:active{background-color:#09F;}
+.urunitem .urunHead img{padding:1px; border:1px solid #CCC; float:left; margin-right:10px;}
+.urunitem .urunHead h3{}
+.urunitem .urunMain{display:none;}
+.urunMain > p{margin:0; font-size:90%;}
+.urunMain > p:nth-child(odd){background-color: #f9f9f9;}
